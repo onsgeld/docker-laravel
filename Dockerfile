@@ -1,4 +1,4 @@
-FROM php:7.1-apache
+FROM php:7.2-apache
 
 # install php modules
 RUN apt-get update && apt-get install -y --force-yes \
